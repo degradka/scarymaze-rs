@@ -1,0 +1,15 @@
+[package]
+name = "scary-maze-game"
+version = "0.1.0"
+edition = "2021"
+
+[profile.dev.package."*"]
+opt-level = 3
+
+[profile.release]
+lto = true
+
+[dependencies]
+macroquad = "0.3.25"
+#miniquad = "0.3.14"
+quad-rand = "0.2.1"
