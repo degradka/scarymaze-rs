@@ -11,5 +11,4 @@ lto = true
 
 [dependencies]
 macroquad = "0.3.25"
-#miniquad = "0.3.14"
 quad-rand = "0.2.1"
