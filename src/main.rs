@@ -45,11 +45,6 @@ async fn main() {
     let mut bunnies_count = 0;
     let tex_bunny = load_texture("resources/wabbit_alpha.png").await.unwrap();
 
-//     loop {
-//         clear_background(GRAY);
-//         draw_circle(PROJECTION_WIDTH/2f32, PROJECTION_HEIGHT/2f32, 4f32, RED);
-//         next_frame().await;
-//     }
     loop {
         if is_mouse_button_down(MouseButton::Left) {
             for _ in 0..100 {
